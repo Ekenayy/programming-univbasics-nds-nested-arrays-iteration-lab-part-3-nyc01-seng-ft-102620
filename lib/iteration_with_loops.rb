@@ -8,6 +8,8 @@ while row_index < src.count do
   while element_index < src[row_index].count do
     if src[row_index][element_index].length > 0
     total += src[row_index][element_index]
+  else 
+    nil
     end
     element_index += 1
     end
